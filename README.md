@@ -1,4 +1,4 @@
-# Log Analyzer (Core Java)
+# Log Analyzer
 
 1. Project Title & Goal
 
@@ -18,14 +18,12 @@ A Core Java command-line tool that parses a server log file, counts total ERROR 
 
 Open terminal in the project root directory and run:
 
-```
 javac --release 8 src/loganalyzer/LogAnalyzer.java
 java -cp src loganalyzer.LogAnalyzer server.log
-```
 
 ---
 
-## 3. The Logic (How I Thought)
+3. The Logic (How I Thought)
 
 ### Why did I choose this approach?
 
@@ -37,7 +35,7 @@ The hardest issue I faced was a Java version mismatch error. The code was compil
 
 ---
 
-## 4. Output Screenshots
+4. Output Screenshots
 
 Below is the screenshot proving that the program runs successfully and prints the error summary as required.
 
@@ -45,7 +43,7 @@ Below is the screenshot proving that the program runs successfully and prints th
 
 ---
 
-## 5. Future Improvements
+5. Future Improvements
 
 If I had two more days, I would:
 
@@ -53,3 +51,4 @@ If I had two more days, I would:
 * Generate a downloadable summary report file
 * Improve performance for very large log files
 * Add regex-based parsing for more complex log formats
+
